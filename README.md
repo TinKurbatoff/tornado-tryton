@@ -30,7 +30,6 @@
 
 
 ## Features
-List the ready features here:
 - Supports async operations (the main advantage of using Tornado over Flask)
 - Reads/writes to a Tryton database in a non-blocking manner.
 - Supports all data models, including user-defined, from the Pool of the installed Tryton ERP.
@@ -129,7 +128,6 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
 - This project was inspired by [Tryton community](https://discuss.tryton.org/)...
 - This project is based on the flask_tryton module at [PyPi](https://pypi.org/project/flask-tryton/)...
 - Many thanks to Cédric Krier for support of the Tryton project and prompt answers on the forum.
