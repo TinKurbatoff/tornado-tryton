@@ -1,8 +1,8 @@
 # Tornado-tryton
 > Adds Tryton support to the Tornado application.
-> Live demo — TO DO [_here_](https://api.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+<!--  Live demo — TO DO [_here_](https://api.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-> Please, add stars to this project if this was helpful for your project. Share your questions and thoughts. Always welcome! 
+> Please, add stars to this project on [github](https://github.com/TinKurbatoff/tornado-tryton) if this was helpful for your project. Share your questions and thoughts. Always welcome! 
 
 ## Table of Contents
 * [General Info](#general-information)
