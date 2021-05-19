@@ -30,7 +30,7 @@
 
 
 ## Features
-- Supports async operations (the main advantage of using Tornado over Flask)
+- Supports async operations (the main advantage of using Tornado instead of Flask)
 - Reads/writes to a Tryton database in a non-blocking manner.
 - Supports all data models, including user-defined, from the Pool of the installed Tryton ERP.
 
