@@ -4,6 +4,9 @@
 
 > Please, add stars to this project on [github](https://github.com/TinKurbatoff/tornado-tryton) if this was helpful for your project. Share your questions and thoughts. Always welcome! 
 
+## Django webserver note
+> It is possible to use this module with a Django web-server with some minor edits. I will add such a support or create a new module. But you may try to implement it manualy.
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
