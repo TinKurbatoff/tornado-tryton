@@ -48,7 +48,7 @@ $pip3 install tornado_tryton
 
 ## Usage
 By default transactions are read-only except for PUT, POST, DELETE and PATCH request methods. 
-You need trytond with all your user modules installed and proper trytond.conf database configuration set:
+You need trytond with all your user modules installed, and a proper trytond.conf database configuration set:
 ```
 [database]
 uri =  postgresql://tryton:<my_secret_password>@postgres:5432/
