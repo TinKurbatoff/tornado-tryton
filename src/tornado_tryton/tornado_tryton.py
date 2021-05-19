@@ -4,14 +4,8 @@ from functools import wraps
 
 from tornado.options import define, options
 
-from trytond import __version__ as trytond_version
 from trytond.config import config
-
 from trytond.exceptions import UserError, UserWarning, ConcurrencyException
-
-trytond_version = tuple(map(int, trytond_version.split('.')))
-__version__ = '1.0.1'
-__all__ = ['Tryton', 'tryton_transaction']
 
 def retry_transaction(retry):
     """Decorator to retry a transaction if failed. The decorated method
