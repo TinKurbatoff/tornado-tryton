@@ -20,7 +20,7 @@
 
 ## General Information
 - This module helps to connect to tryton back-end from Tornado web application 
-- I created a Mobile App that used data from Tryton DB to operate, there is a [flask_tryton](https://pypi.org/project/flask-tryton/) module, but I don't want to use flask as it blocking a server and wasn't intended to use in multi-user multitasking operations. As I use Tornado as API back-end I needed to connect a Tornado back-end to Tryton DB and its models. 
+- I created a Mobile App that used data from Tryton DB to operate, there is a [flask_tryton](https://pypi.org/project/flask-tryton/) module, but I don't want to use flask as it a "blocking server" and wasn't intended to use in multi-user multitasking operations. As I use Tornado as API back-end I needed to connect a Tornado back-end to Tryton DB and its models. 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
