@@ -1,6 +1,7 @@
-# Project Name
-> Adds Tryton support to Tornado application.
+# Tornado-tryton
+> Adds Tryton support to the Tornado application.
 > Live demo — TO DO [_here_](https://api.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+
 > Please, add stars to this project if this was helpful for your project. Share your questions and thoughts. Always welcome! 
 
 ## Table of Contents
@@ -18,10 +19,8 @@
 
 
 ## General Information
-- This module helps connecting to tryton back-end from Tornado web application 
-- I created a Mobile App that used datat from Tryton DB to operate, there is a flask_tryton module exists, but I don't want to use flask as it blocking server and doesn't intendend to use in multy-user multi-tasking operations. As I use Tornado as API back-end I needed to connect tornado back-end to Tryton DB and it's models. 
-- I created this module to 
-- Why did you undertake it?
+- This module helps to connect to tryton back-end from Tornado web application 
+- I created a Mobile App that used data from Tryton DB to operate, there is a [flask_tryton](https://pypi.org/project/flask-tryton/) module, but I don't want to use flask as it blocking a server and wasn't intended to use in multi-user multitasking operations. As I use Tornado as API back-end I needed to connect a Tornado back-end to Tryton DB and its models. 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
@@ -33,24 +32,23 @@
 ## Features
 List the ready features here:
 - Supports async operations (the main advantage of using Tornado over Flask)
-- Reads/writes to Tryton database in non-blocking manner.
+- Reads/writes to a Tryton database in a non-blocking manner.
 - Supports all data models, including user-defined, from the Pool of the installed Tryton ERP.
 
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![TODO: Example screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
+```
+$pip3 install tornado_tryton
+```
 
 ## Usage
-By default transactions are readonly except for PUT, POST, DELETE and PATCH request methods. 
+By default transactions are read-only except for PUT, POST, DELETE and PATCH request methods. 
 You need trytond with all your user modules installed and proper trytond.conf database configuration set:
 ```
 [database]
@@ -119,7 +117,7 @@ Project is: _in progress_ .
 
 
 ## Room for Improvement
-It is tested with the only one server configuration and may have some issues in production.
+It is tested with only one server configuration and may have some issues in production.
 
 Room for improvement:
 - Test with more than 10 concurrent connections
@@ -134,7 +132,7 @@ To do:
 Give credit here.
 - This project was inspired by [Tryton community](https://discuss.tryton.org/)...
 - This project is based on the flask_tryton module at [PyPi](https://pypi.org/project/flask-tryton/)...
-- Many thanks to Cédric Krier for support of the Tryton project and promt ansewers on the forum.
+- Many thanks to Cédric Krier for support of the Tryton project and prompt answers on the forum.
 
 
 ## Contact
