@@ -2,7 +2,7 @@
 # Tornado-tryton
 > Adds Tryton support to the Tornado application.
 <!--  Live demo — TO DO [_here_](https://api.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
-
+> Links: [Tryton ERP](https://www.tryton.org/) | [Tornado webserver](https://www.tornadoweb.org/)
 > Please, add stars to this project on [github](https://github.com/TinKurbatoff/tornado-tryton) if this was helpful for your project. Share your questions and thoughts. Always welcome! 
 
 ## Django webserver note
@@ -31,7 +31,6 @@
 ## Technologies Used
 - trytond - version 5.8.1
 - tornado - version 6.1
-
 
 ## Features
 - Supports async operations (the main advantage of using Tornado instead of Flask)
@@ -135,7 +134,7 @@ To do:
 ## Acknowledgements
 - This project was inspired by [Tryton community](https://discuss.tryton.org/)...
 - This project is based on the flask_tryton module at [PyPi](https://pypi.org/project/flask-tryton/)...
-- Many thanks to Cédric Krier for support of the Tryton project and prompt answers on the forum.
+- Many thanks to Cédric Krier for his support of the Tryton project and detailed answers on the forum.
 
 
 ## Contact
