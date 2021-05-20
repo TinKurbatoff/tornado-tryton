@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/TinKurbatoff/tornado-tryton?style=plastic) ![PyPI](https://img.shields.io/pypi/v/tornado-tryton?style=plastic)
+![GitHub](https://img.shields.io/github/license/TinKurbatoff/tornado-tryton?style=plastic) ![PyPI](https://img.shields.io/pypi/v/tornado-tryton?style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/TinKurbatoff/tornado-tryton?style=plastic) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tornado-tryton) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/tornado-tryton?style=plastic) 
 # Tornado-tryton
 > Adds Tryton support to the Tornado application.
 <!--  Live demo — TO DO [_here_](https://api.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
