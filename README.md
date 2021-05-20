@@ -47,7 +47,7 @@
 
 ## Setup
 ```
-$pip3 install tornado_tryton
+$pip3 install tornado-tryton
 ```
 
 ## Usage
