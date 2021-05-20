@@ -16,7 +16,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/TinKurbatoff/tornado-tryton/issues",
     },
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.5",
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Operating System :: OS Independent",
     ],
