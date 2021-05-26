@@ -1,5 +1,10 @@
 import setuptools
 
+requires = [
+        trytond>=5.0,
+        tornado>=6.0,
+        ]
+
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
@@ -22,5 +27,6 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
+    install_requires=requires,
     python_requires=">=3.6",
 )
